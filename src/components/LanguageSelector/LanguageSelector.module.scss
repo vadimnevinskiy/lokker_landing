@@ -1,0 +1,31 @@
+@import "../../scss";
+
+.LanguageSelectorWrapper {
+  position: relative;
+  &__LanguageSelector {
+    min-width: 158px;
+    background: linear-gradient(175deg, #2c363b, transparent, #2c363b);
+    border-radius: 28px;
+    padding: 0 20px;
+    //position: relative;
+
+    &__btn {
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      gap: 15px;
+
+      &_content {
+        min-width: 40px;
+      }
+    }
+
+    @include noSelectText;
+
+    ul > li > div {
+      cursor: pointer;
+    }
+  }
+}

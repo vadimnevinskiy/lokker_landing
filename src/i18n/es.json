@@ -1,0 +1,302 @@
+{
+  "languages": [
+    {
+      "title": "Русский",
+      "short_title": "Рус",
+      "id": "ru"
+    },
+    {
+      "title": "English",
+      "short_title": "Eng",
+      "id": "en"
+    },
+    {
+      "title": "Español",
+      "short_title": "Esp",
+      "id": "es"
+    },
+    {
+      "title": "Deutsch",
+      "short_title": "Deu",
+      "id": "de"
+    }
+  ],
+  "menu": [
+    {
+      "title": "Home",
+      "id": "home_section"
+    },
+    {
+      "title": "Funciones",
+      "id": "features_section"
+    },
+    {
+      "title": "Seguridad",
+      "id": "security_section"
+    },
+    {
+      "title": "Demo",
+      "id": "demo_section"
+    },
+    {
+      "title": "Download",
+      "id": "download"
+    }
+  ],
+  "buttons": {
+    "download_btn": "Descargar Lokker para Windows",
+    "protect_btn": "Proteger contraseñas con Lokker",
+    "install_btn": "Instalar Lokker en Windows",
+    "connection_btn": "Contactar"
+  },
+  "detail_link": {
+    "url": "/detail",
+    "title": "Detalles del cifrado utilizado"
+  },
+  "back_link": {
+    "url": "/",
+    "title": "Volver a la presentación"
+  },
+  "download_menu": {
+    "block_title": "Dispositivos",
+    "links": [
+      {
+        "name": "Windows",
+        "url": "https://gitlab.com/vadim_nevinskiy/passwords/-/raw/main/dist/LokkerSetup.exe"
+      }
+    ]
+  },
+  "benefits": [
+    "Hash de contraseña maestra PBKDF2",
+    "Almacenamiento local de datos",
+    "Cifrado AES-GCM robusto",
+    "Interfaz multilingüe",
+    "Búsqueda rápida de registros",
+    "Añadir registros importantes a favoritos",
+    "Generador de contraseñas integrado",
+    "Sin participación de servicios de terceros",
+    "Tus contraseñas: solo en tus manos"
+  ],
+  "home_section": {
+    "id": "home_section",
+    "title": {
+      "app_name": "Lokker",
+      "app_title": "Administrador de contraseñas",
+      "keywords": [
+        "fiable",
+        "gratuito",
+        "seguro",
+        "protegido",
+        "privado",
+        "limpio",
+        "local",
+        "código abierto"
+      ]
+    },
+    "slogan": [
+      "Tus contraseñas protegidas",
+      "Seguridad total",
+      "Privacidad total",
+      "Sin nubes",
+      "Sin riesgos",
+      "Tus reglas",
+      "Sin concesiones"
+    ],
+    "description": "Lokker: el gestor de contraseñas ligero, seguro e intuitivo, diseñado para ti y para compartir con varios usuarios"
+  },
+  "features_section": {
+    "id": "features_section",
+    "title": "Funciones clave para un control total",
+    "subtitle": "Herramientas prácticas. Almacenamiento seguro.",
+    "description": "Lokker te ayuda a mantener todo bajo control: desde el almacenamiento seguro hasta el acceso instantáneo a tus contraseñas. Sus funciones intuitivas ahorran tiempo y hacen que la gestión de tus datos sea lo más sencilla posible.",
+    "cards": [
+      {
+        "icon": "feature_card_1.svg",
+        "title": "Gestión de contraseñas",
+        "description": "Crea, edita y elimina contraseñas fácilmente."
+      },
+      {
+        "icon": "feature_card_2.svg",
+        "title": "Clasificación inteligente",
+        "description": "Agrupa las entradas por categorías para mayor comodidad."
+      },
+      {
+        "icon": "feature_card_3.svg",
+        "title": "Acceso rápido",
+        "description": "Agrega lo importante a tus favoritos — siempre al alcance."
+      },
+      {
+        "icon": "feature_card_4.svg",
+        "title": "Copia rápida",
+        "description": "Copia inicios de sesión y contraseñas con un solo clic."
+      },
+      {
+        "icon": "feature_card_5.svg",
+        "title": "Generador de contraseñas",
+        "description": "Crea contraseñas seguras en segundos."
+      },
+      {
+        "icon": "feature_card_6.svg",
+        "title": "Almacén personal",
+        "description": "Elige un archivo o crea un nuevo almacén."
+      }
+    ]
+  },
+  "security_section": {
+    "id": "security_section",
+    "title": "Seguridad en la que puedes confiar",
+    "subtitle": "Seguridad. Privacidad. Protección de datos.",
+    "description": "<p>Lokker fue diseñado con la seguridad y la privacidad como prioridad.</p><p>A continuación se enumeran las principales medidas que garantizan la protección de los datos de los usuarios.</p>",
+    "cards": [
+      {
+        "icon": "key_1.svg",
+        "title": "Cifrado estándar bancario",
+        "subtitle": "Algoritmos seguros AES-GCM y PBKDF2-HMAC-SHA256",
+        "description": "Tus datos pasan por la misma seguridad que los bancos y las agencias de inteligencia. Cada contraseña se cifra con una clave única creada a partir de tu contraseña maestra. Todo se procesa directamente en tu dispositivo: ni un solo byte sale sin tu conocimiento.",
+        "tags": [
+          "Cifrado",
+          "Protegido",
+          "Garantizado"
+        ]
+      },
+      {
+        "icon": "shield.svg",
+        "title": "Contraseña maestra bajo protección segura",
+        "subtitle": "Tu clave de acceso nunca se guarda ni se transmite.",
+        "description": "La contraseña maestra es tu clave secreta personal y solo tuya. A partir de ella, se crea una clave criptográfica mediante cientos de miles de iteraciones utilizando el algoritmo PBKDF2-HMAC-SHA256. Si pierdes tu contraseña, nadie podrá recuperarla, ni siquiera nosotros.",
+        "tags": [
+          "Guardamos",
+          "No transmitimos",
+          "Protegemos"
+        ]
+      },
+      {
+        "icon": "Storage.svg",
+        "title": "Solo almacenamiento local",
+        "subtitle": "Los datos se guardan solo en tu dispositivo, sin servidores ni sincronización.",
+        "description": "Lokker funciona completamente sin conexión. Las contraseñas se guardan en un archivo local, y solo tú decides dónde almacenarlo. No hay nubes, servidores ni sincronización, lo que significa que no hay riesgo de transmitir información por Internet.",
+        "tags": [
+          "Local",
+          "Seguro",
+          "Controlado"
+        ]
+      },
+      {
+        "icon": "code.svg",
+        "title": "Código transparente y abierto",
+        "subtitle": "Cualquiera puede verificar cómo funciona la protección.",
+        "description": "Lokker es un proyecto completamente abierto. El código fuente está disponible en GitHub para que cualquiera pueda comprobar que no hay funciones ocultas, puertas traseras ni fugas de datos. Aceptamos sugerencias de mejora y auditorías independientes.",
+        "tags": [
+          "Abierto",
+          "Verificable",
+          "Honesto"
+        ]
+      },
+      {
+        "icon": "without.svg",
+        "title": "Gratis, sin rastreadores, sin anuncios.",
+        "subtitle": "Aplicación completamente gratuita.",
+        "description": "Sin rastreadores, análisis ni anuncios. Sin recopilación de datos ocultos ni contenido intrusivo. La aplicación no rastrea, comparte ni distrae. Todas las funciones son completamente gratuitas. Privacidad absoluta sin concesiones.",
+        "tags": [
+          "Gratis",
+          "Privado",
+          "Sin publicidad"
+        ]
+      },
+      {
+        "icon": "security_image.svg",
+        "title": "Lokker es para ti si:",
+        "subtitle": "Seguridad clara y sencilla",
+        "description": "<ul><li>Valoras la privacidad y el control total de tus datos personales.</li><li>No confías en los gestores de contraseñas en la nube.</li><li>Prefieres almacenar tus datos solo en tu propio dispositivo.</li></ul>",
+        "tags": [
+          "Confiable",
+          "Sencillo",
+          "Seguro"
+        ]
+      }
+    ]
+  },
+  "security_detail": {
+    "title": "Arquitectura criptográfica",
+    "slogans": [
+      {
+        "icon": "💻",
+        "text": "Enfoque autónomo"
+      },
+      {
+        "icon": "🔐",
+        "text": "Cifrado del lado del cliente"
+      },
+      {
+        "icon": "🚫",
+        "text": "Cero telemetría"
+      }
+    ],
+    "subtitle": "",
+    "description": "<p>LOKKER ha sido diseñado como un gestor de contraseñas del lado del cliente, con cifrado local y orientado al funcionamiento en modo autónomo.</p><p>Todas las operaciones criptográficas se realizan localmente utilizando algoritmos y bibliotecas ampliamente probados y reconocidos.</p>",
+    "blocks": [
+      {
+        "icon": "🔑",
+        "title": "Generación de clave secreta",
+        "subtitle": "<p>El mecanismo PBKDF2 (Password-Based Key Derivation Function 2), utilizando HMAC-SHA256, se emplea para derivar una clave criptográfica a partir de la contraseña maestra.</p>\n\n<p>Los algoritmos de hash y derivación de claves transforman la contraseña maestra en una secuencia de bytes de longitud fija, comparable a una «huella digital»: única y directamente vinculada a una contraseña concreta. Incluso si la base de datos se viera comprometida, un atacante solo tendría acceso a claves derivadas, pero no a las contraseñas originales.</p>\n\n<p>El algoritmo <b>PBKDF2-HMAC-SHA256</b> se configura con los siguientes parámetros:</p>",
+        "features": [
+          "Función hash: SHA-256 (utilizada dentro de HMAC)",
+          "Contraseña: contraseña maestra del usuario",
+          "Salt: sal criptográficamente aleatoria y única para cada usuario / contraseña maestra",
+          "Número de iteraciones: 600000 — incrementa el coste de los ataques por fuerza bruta",
+          "Longitud de la clave: definida en la configuración de la aplicación (32 bytes para una clave de 256 bits)"
+        ],
+        "description": "<p>Durante el registro, la contraseña maestra se procesa mediante PBKDF2 con los parámetros especificados; únicamente se almacenan la sal y el resultado (clave derivada). La contraseña maestra nunca se guarda en texto plano.</p>\n\n<p>El proceso es irreversible: no es posible recuperar directamente la contraseña original a partir de la clave derivada. Sin embargo, las contraseñas débiles pueden ser vulnerables a ataques por fuerza bruta, por lo que se recomienda utilizar contraseñas robustas.</p><p>La verificación durante el inicio de sesión se realiza de forma segura utilizando los mismos parámetros.</p>"
+      },
+      {
+        "icon": "🔒",
+        "title": "Cifrado de contraseñas de servicios",
+        "subtitle": "<p>La protección de las contraseñas de servicios se realiza mediante cifrado simétrico AES-GCM (256 bits).</p>\n<p>AES es el algoritmo de cifrado simétrico más popular y ampliamente utilizado.</p>\n<p>AES fue estandarizado en 2001 por el NIST como algoritmo oficial de cifrado para información comercial y gubernamental clasificada (en EE. UU.). Actualmente es el cifrado simétrico de uso público más extendido en el mundo.</p>",
+        "features": [
+          "Se utiliza un nonce aleatorio y único para cada operación de cifrado",
+          "La etiqueta de autenticación integrada garantiza la integridad de los datos",
+          "Cualquier modificación no autorizada de los datos cifrados será detectada"
+        ],
+        "description": "<p>El modo Galois/Counter Mode (GCM) no solo cifra el texto en claro, sino que también autentica el texto cifrado. El proceso de autenticación genera una etiqueta de autenticación junto con el cifrado, que debe ser verificada durante el descifrado para garantizar la integridad de los datos.</p><p>El conocimiento de la etiqueta de autenticación permite detectar cualquier alteración no autorizada del texto cifrado cuando la verificación falla.</p>"
+      },
+      {
+        "icon": "📦",
+        "title": "Almacenamiento",
+        "subtitle": "<p>La ubicación y el nombre del almacenamiento son controlados exclusivamente por el usuario de Lokker.</p><p>El único requisito técnico es que el archivo de almacenamiento tenga la extensión <code>.lokker</code>, por ejemplo <code>demo.lokker</code>. Al crear un nuevo almacenamiento, se sugiere un nombre predeterminado: <code>lokker.lokker</code>.</p>",
+        "features": [
+          "Todas las contraseñas se almacenan únicamente en forma cifrada",
+          "Los datos cifrados se codifican en Base64"
+        ],
+        "description": "<p>Durante el primer inicio de la aplicación, se solicita al usuario crear una nueva base de datos y seleccionar la ubicación en el dispositivo donde se almacenará el archivo.</p><p>Si el usuario ya ha utilizado la aplicación y dispone de una copia de seguridad del almacenamiento con datos importantes, tras una actualización o reinstalación podrá seleccionar dicha versión archivada del almacenamiento.</p>"
+      }
+    ]
+  },
+  "demo_section": {
+    "id": "demo_section",
+    "title": "Descubre Lokker en acción",
+    "subtitle": "Mira un breve video que muestra cómo Lokker hace que gestionar tus contraseñas sea fácil, rápido y seguro."
+  },
+  "contacts_section": {
+    "id": "contacts_section",
+    "question": "¿Tienes preguntas, ideas o encontraste un error? Ponte en contacto con nosotros o visita el repositorio del proyecto.",
+    "navigation_title": "Navegación",
+    "contact_title": "Contacto",
+    "links": [
+      {
+        "icon": "telegram",
+        "name": "Escribir en Telegram",
+        "url": "https://t.me/+v4X5ohXRyI1kMzEy"
+      },
+      {
+        "icon": "email",
+        "name": "Escribir al desarrollador",
+        "url": "mailto:nevinskiyvadim@gmail.com"
+      },
+      {
+        "icon": "gitlab",
+        "name": "Ver el código fuente en GitLab",
+        "url": "https://gitlab.com/vadim_nevinskiy/passwords"
+      }
+    ]
+  }
+}

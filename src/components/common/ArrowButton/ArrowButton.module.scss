@@ -1,0 +1,38 @@
+@import "../../../scss";
+.ArrowButton {
+  cursor: pointer;
+  position: fixed;
+  right: 7%;
+  top: 90%;
+  z-index: 4;
+  width: 50px;
+  height: 50px;
+  transition: 0.5s;
+  transform: translateY(-50%);
+
+  path {
+    fill: transparent;
+    stroke-width: 2;
+    stroke: $color_white;
+    stroke-dasharray: 50;
+    stroke-dashoffset: 50;
+    //animation: draw 2s ease forwards;
+    animation: fillAnimation_white 4s linear 1 forwards;
+  }
+
+  @keyframes fillAnimation_white {
+    0% {
+      stroke-dashoffset: 450;
+    }
+    50% {
+      stroke-dashoffset: 0;
+      stroke-width: 0;
+      fill: #cccccc;
+    }
+    100% {
+      stroke-dashoffset: 0;
+      stroke-width: 0;
+      fill: $color_white;
+    }
+  }
+}

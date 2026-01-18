@@ -1,0 +1,46 @@
+@import "../../scss";
+
+.SecurityCard,
+.SecurityCard__CardWrapper {
+  @include respond-from($bp_tablet_768) {
+    height: $security_desktop_height;
+  }
+  @include respond-to($bp_tablet_768) {
+    height: $security_tablet_height;
+  }
+  @include respond-to($bp_mobile_480) {
+    height: $security_mobile_height !important;
+    top: 50px !important;
+  }
+  @include respond-to-mobile-mini() {
+    height: $security_mobile_mini_height !important;
+  }
+}
+
+.SecurityCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: 28px;
+  position: sticky;
+  top: 100px;
+
+  &__CardWrapper{
+    flex-grow: 1;
+  }
+  @include respond-to($bp_tablet_768) {
+    top: 50px;
+  }
+
+  @media (max-width: 380px) and (max-height: 750px) {
+    position: static;
+  }
+
+  &__firstChild {
+    margin-top: 0;
+  }
+
+
+}

@@ -1,0 +1,24 @@
+@import "../../scss";
+
+.Title {
+  font-family: 'Manrope', 'sans-serif';
+  font-size: 62px;
+  line-height: 72px;
+  font-weight: 800;
+  margin-bottom: 40px;
+
+
+  &__centerText{
+    text-align: center;
+  }
+
+  @include respond-to($bp_tablet_big_900) {
+    font-size: 38px;
+    line-height: 40px;
+  }
+  @include respond-to-mobile-mini() {
+    font-size: 34px;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+}

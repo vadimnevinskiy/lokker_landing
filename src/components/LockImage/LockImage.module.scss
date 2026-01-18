@@ -1,0 +1,12 @@
+@import "../../scss";
+
+
+.LockImage {
+  margin-bottom: 100px;
+
+  &__img{
+    width: 100%;
+
+    @include noSelectText();
+  }
+}

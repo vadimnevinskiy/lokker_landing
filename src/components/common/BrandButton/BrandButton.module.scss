@@ -1,0 +1,70 @@
+@import "../../../scss";
+
+.BrandButton {
+  display: flex;
+
+
+  &__Content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    border-radius: 28px;
+    position: relative;
+
+    &__link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      border-radius: inherit;
+      background: $color_accent;
+      color: $color_accent_text;
+      height: 56px;
+      padding: 0 clamp(5px, 4vw, 35px);;
+      font-size: clamp(12px, 2vw, 20px);
+      font-weight: bold;
+      cursor: pointer;
+      gap: 15px;
+      white-space: nowrap;
+
+      @include noSelectText();
+      @include borderGradient();
+
+      @include respond-to($bp_mobile_480) {
+        height: 40px;
+      }
+
+      &::after {
+        transition: --angle 0.3s ease;
+      }
+
+      &:hover::after {
+        --angle: 180deg;
+      }
+
+      &__accent {
+        background: $color_accent;
+        color: $color_accent_text;
+      }
+
+      &__default {
+        background: $color_default;
+        color: $color_white;
+      }
+
+      &__disabled {
+        background: #cccccc;
+        color: #666666;
+        cursor: auto;
+
+        &:hover::after {
+          --angle: 40deg;
+        }
+
+      }
+    }
+
+
+  }
+}

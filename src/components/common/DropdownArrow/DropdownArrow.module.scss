@@ -1,0 +1,13 @@
+.DropdownArrow {
+  background-image: url('../../../../public/assets/images/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 10px;
+  height: 10px;
+  transition: 0.5s;
+  margin-top: 3px;
+
+  &_active {
+    transform: rotate(180deg);
+  }
+}

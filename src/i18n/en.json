@@ -1,0 +1,302 @@
+{
+  "languages": [
+    {
+      "title": "Русский",
+      "short_title": "Рус",
+      "id": "ru"
+    },
+    {
+      "title": "English",
+      "short_title": "Eng",
+      "id": "en"
+    },
+    {
+      "title": "Español",
+      "short_title": "Esp",
+      "id": "es"
+    },
+    {
+      "title": "Deutsch",
+      "short_title": "Deu",
+      "id": "de"
+    }
+  ],
+  "menu": [
+    {
+      "title": "Home",
+      "id": "home_section"
+    },
+    {
+      "title": "Features",
+      "id": "features_section"
+    },
+    {
+      "title": "Security",
+      "id": "security_section"
+    },
+    {
+      "title": "Demo",
+      "id": "demo_section"
+    },
+    {
+      "title": "Download",
+      "id": "download"
+    }
+  ],
+  "buttons": {
+    "download_btn": "Download Lokker for Windows",
+    "protect_btn": "Secure your passwords with Lokker",
+    "install_btn": "Install Lokker on Windows",
+    "connection_btn": "Get in touch"
+  },
+  "detail_link": {
+    "url": "/detail",
+    "title": "More information about encryption"
+  },
+  "back_link": {
+    "url": "/",
+    "title": "Back to presentation"
+  },
+  "download_menu": {
+    "block_title": "Devices",
+    "links": [
+      {
+        "name": "Windows",
+        "url": "https://gitlab.com/vadim_nevinskiy/passwords/-/raw/main/dist/LokkerSetup.exe"
+      }
+    ]
+  },
+  "benefits": [
+    "PBKDF2 master password hashing",
+    "Local data storage",
+    "Strong AES-GCM encryption",
+    "Multilingual interface",
+    "Quick search for entries",
+    "Add important entries to favorites",
+    "Built-in password generator",
+    "No third-party services",
+    "Your passwords are in your hands"
+  ],
+  "home_section": {
+    "id": "home_section",
+    "title": {
+      "app_name": "Lokker",
+      "app_title": "Password Manager",
+      "keywords": [
+        "reliable",
+        "free",
+        "secure",
+        "safe",
+        "private",
+        "clean",
+        "local",
+        "open-source"
+      ]
+    },
+    "slogan": [
+      "Your Passwords Protected",
+      "Full Security",
+      "Full Privacy",
+      "No Clouds",
+      "No Risks",
+      "Your Rules",
+      "No Compromises"
+    ],
+    "description": "Lokker is a lightweight, reliable, and intuitive password manager with multi-user support"
+  },
+  "features_section": {
+    "id": "features_section",
+    "title": "Key Features for Complete Control",
+    "subtitle": "Convenient Tools. Reliable Storage.",
+    "description": "Lokker helps you stay in control — from secure storage to instant access to your passwords. Its intuitive features save time and make managing your data as simple as possible.",
+    "cards": [
+      {
+        "icon": "feature_card_1.svg",
+        "title": "Password Management",
+        "description": "Create, edit, and delete passwords with ease."
+      },
+      {
+        "icon": "feature_card_2.svg",
+        "title": "Smart Sorting",
+        "description": "Group entries by category for convenience."
+      },
+      {
+        "icon": "feature_card_3.svg",
+        "title": "Quick Access",
+        "description": "Add important items to favorites — always within reach."
+      },
+      {
+        "icon": "feature_card_4.svg",
+        "title": "Instant Copying",
+        "description": "Copy logins and passwords with a single click."
+      },
+      {
+        "icon": "feature_card_5.svg",
+        "title": "Password Generator",
+        "description": "Create strong passwords in seconds."
+      },
+      {
+        "icon": "feature_card_6.svg",
+        "title": "Personal Vault",
+        "description": "Choose a file or create a new vault."
+      }
+    ]
+  },
+  "security_section": {
+    "id": "security_section",
+    "title": "Security You Can Trust",
+    "subtitle": "Security. Privacy. Data Protection.",
+    "description": "<p>Lokker is built with security and privacy as top priorities.</p><p>Below are the key measures that ensure the protection of user data.</p>",
+    "cards": [
+      {
+        "icon": "key_1.svg",
+        "title": "Encryption of banking standards",
+        "subtitle": "Secure AES-GCM and PBKDF2-HMAC-SHA256 algorithms",
+        "description": "Your data goes through the same security as banks and intelligence agencies. Every password is encrypted with a unique key created from your master password. Everything happens directly on your device—not a single byte leaves it without your knowledge.",
+        "tags": [
+          "Encrypted",
+          "Protected",
+          "Guarantee"
+        ]
+      },
+      {
+        "icon": "shield.svg",
+        "title": "Master Password Under Reliable Protection",
+        "subtitle": "Your access key is never stored or transmitted.",
+        "description": "The master password is your personal secret key, and it remains yours alone. A cryptographic key is created from the master password through hundreds of thousands of iterations using the PBKDF2-HMAC-SHA256 algorithm. If you lose your password, no one can recover it, not even us.",
+        "tags": [
+          "Stored",
+          "Don’t Transmit",
+          "Protect"
+        ]
+      },
+      {
+        "icon": "Storage.svg",
+        "title": "Local Storage Only",
+        "subtitle": "Your data stays on your device — no servers, no sync.",
+        "description": "Lokker works completely offline. Passwords are stored in a local file, and only you decide where to keep it. No clouds, no servers, no synchronization — which means no risk of data being transmitted online.",
+        "tags": [
+          "Local",
+          "Secure",
+          "Controlled"
+        ]
+      },
+      {
+        "icon": "code.svg",
+        "title": "Transparent and Open Source",
+        "subtitle": "Anyone can verify how the protection works.",
+        "description": "Lokker is a fully open project. The source code is available on GitHub so everyone can confirm that there are no hidden features, backdoors, or data leaks. We welcome improvement suggestions and independent audits.",
+        "tags": [
+          "Open",
+          "Verifiable",
+          "Honest"
+        ]
+      },
+      {
+        "icon": "without.svg",
+        "title": "Free, no trackers, no ads",
+        "subtitle": "Completely free application.",
+        "description": "No trackers, analytics, or ads. No hidden data collection or intrusive content. The app doesn't track, share, or distract. All features are available completely free. Absolute privacy without compromise.",
+        "tags": [
+          "Free",
+          "Private",
+          "Ad-Free"
+        ]
+      },
+      {
+        "icon": "security_image.svg",
+        "title": "Lokker is right for you if you:",
+        "subtitle": "Security made simple",
+        "description": "<ul><li>Value privacy and full control over your personal data.</li><li>Do not trust cloud-based password managers.</li><li>Prefer to store your data only on your own device.</li></ul>",
+        "tags": [
+          "Reliable",
+          "Simple",
+          "Secure"
+        ]
+      }
+    ]
+  },
+  "security_detail": {
+    "title": "Cryptographic Architecture",
+    "slogans": [
+      {
+        "icon": "💻",
+        "text": "Offline-first approach"
+      },
+      {
+        "icon": "🔐",
+        "text": "Client-side encryption"
+      },
+      {
+        "icon": "🚫",
+        "text": "Zero telemetry"
+      }
+    ],
+    "subtitle": "",
+    "description": "<p>LOKKER is designed as a client-side password manager with encryption performed entirely on the user's device, following an offline-first approach.</p><p>All cryptographic operations are executed locally using well-established algorithms and trusted libraries.</p>",
+    "blocks": [
+      {
+        "icon": "🔑",
+        "title": "Secret Key Derivation",
+        "subtitle": "<p>The PBKDF2 (Password-Based Key Derivation Function 2) mechanism using HMAC-SHA256 is applied to derive a cryptographic key from the master password.</p>\n\n<p>Hashing and key derivation algorithms transform the master password into a fixed-length byte sequence that can be compared to a “fingerprint” — a unique value unambiguously associated with a specific password. Even if the database is compromised, an attacker will have access only to derived values, not the passwords themselves.</p>\n\n<p>The <b>PBKDF2-HMAC-SHA256</b> algorithm is configured with the following parameters:</p>",
+        "features": [
+          "Hash function: SHA-256 (used within HMAC)",
+          "Password: user's master password",
+          "Salt: unique cryptographically secure random salt per user / master password",
+          "Iteration count: 600,000 — increases the cost of brute-force attacks",
+          "Key length: fixed in the application configuration (32 bytes for a 256-bit key)"
+        ],
+        "description": "<p>During registration, the master password is processed using PBKDF2 with the specified parameters. The salt and the resulting derived value are stored for password verification purposes. The master password itself is never stored in plaintext.</p>\n\n<p>The process is one-way: it is not possible to recover the original password from the derived value. However, weak passwords remain vulnerable to brute-force attacks, so the use of strong master passwords is strongly recommended.</p><p>During login, verification is performed securely using the same parameters.</p>"
+      },
+      {
+        "icon": "🔒",
+        "title": "Service Password Encryption",
+        "subtitle": "<p>Passwords for services are protected using symmetric encryption with AES-GCM (256-bit).</p>\n<p>AES is the most widely used and trusted modern symmetric encryption algorithm.</p>\n<p>AES was standardized in 2001 by the NIST as the official encryption standard for protecting sensitive commercial and governmental information (in the United States). Today, it is the most commonly used publicly available symmetric cipher worldwide.</p>",
+        "features": [
+          "A unique random nonce is used for each encryption operation",
+          "Built-in authentication tag guarantees data integrity",
+          "Any unauthorized modification of encrypted data is detected"
+        ],
+        "description": "<p>The Galois/Counter Mode (GCM) provides both encryption and authentication. In addition to encrypting the plaintext, it ensures the authenticity of the ciphertext.</p><p>During encryption, an authentication tag is generated and later used during decryption to verify data integrity. If the verification fails, the data is considered corrupted or tampered with.</p>"
+      },
+      {
+        "icon": "📦",
+        "title": "Storage",
+        "subtitle": "<p>The location and name of the storage file are fully controlled by the LOKKER user.</p><p>The only technical requirement is the storage file extension <code>.lokker</code>, for example <code>demo.lokker</code>. When creating a new storage file, the default name offered is <code>lokker.lokker</code>.</p>",
+        "features": [
+          "All passwords are stored only in encrypted form",
+          "Encrypted data is encoded using Base64"
+        ],
+        "description": "<p>On the first launch, the user is prompted to create a new database and choose a preferred location on the device for storing the storage file.</p><p>If the user has previously used the application and has an archived version of the storage file containing important data, it can be selected after updating or reinstalling the application.</p>"
+      }
+    ]
+  },
+  "demo_section": {
+    "id": "demo_section",
+    "title": "See Lokker in Action",
+    "subtitle": "Watch a short video showing how Lokker makes managing your passwords easy, fast, and secure."
+  },
+  "contacts_section": {
+    "id": "contacts_section",
+    "question": "Have questions, ideas, or found a bug? Get in touch with us or check out the project repository.",
+    "navigation_title": "navigation",
+    "contact_title": "contact",
+    "links": [
+      {
+        "icon": "telegram",
+        "name": "Message on Telegram",
+        "url": "https://t.me/+v4X5ohXRyI1kMzEy"
+      },
+      {
+        "icon": "email",
+        "name": "Email the developer",
+        "url": "mailto:nevinskiyvadim@gmail.com"
+      },
+      {
+        "icon": "gitlab",
+        "name": "View source code",
+        "url": "https://gitlab.com/vadim_nevinskiy/passwords"
+      }
+    ]
+  }
+}

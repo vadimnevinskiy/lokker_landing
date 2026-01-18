@@ -1,0 +1,30 @@
+@import "../../scss";
+
+.Header {
+  @include container;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  //position: fixed;
+  //right: 0;
+  //top: 0;
+  //background: linear-gradient(180deg, rgba(15, 26, 33, 0.95) 0%, rgba(15, 26, 33, 0.8) 80%, rgba(15, 26, 33, 0.7) 90%, rgba(15, 26, 33, 0) 100%);
+  z-index: 2;
+  width: 100%;
+  padding: 0 20px 0 20px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+
+
+  @include respond-to($bp_notebook_1024) {
+    &__Menu, &__LanguageSelector{
+      display: none !important;
+    }
+  }
+  @include respond-to($bp_mobile_480) {
+    margin-bottom: 0;
+  }
+
+
+}

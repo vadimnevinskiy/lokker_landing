@@ -1,0 +1,29 @@
+@import "../../scss";
+
+.RandomReveal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    margin: 0 0;
+    font-size: 16px;
+    padding: 3px 0;
+  }
+  //$shadow: rgba(44, 54, 59, 1);
+  //$bg: rgba(255, 255, 255, 0.7);
+  //&__char {
+  //  border-radius: 3px;
+  //  font-weight: 800;
+  //  text-transform: uppercase;
+  //  color: $color_primary;
+  //  background: linear-gradient(0deg, $shadow, transparent, $shadow) lighten($bg, 20%);
+  //  box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.6);
+  //}
+
+}

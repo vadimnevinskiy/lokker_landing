@@ -1,0 +1,71 @@
+@import "variable";
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 40deg;
+  inherits: false;
+}
+
+$angle: 40deg;
+
+@keyframes spin {
+  from {
+    --angle: 40deg;
+  }
+  to {
+    --angle: 400deg;
+  }
+}
+
+
+
+@mixin gradient($colors: null, $opacity: 1) {
+  $final-colors: if($colors == null, ($color_steel_white, $color_steel_light, $color_steel_white, $color_steel_dark, $color_steel_white), $colors);
+
+  content: '';
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: inherit;
+
+  background: conic-gradient(from var(--angle), $final-colors...);
+  z-index: -1;
+  padding: 1px;
+
+  opacity: $opacity;
+}
+
+
+@mixin borderGradient($colors: null, $opacity: 1) {
+  &::after, &::before {
+    @if length($colors) > 0 {
+      @include gradient($colors, $opacity);
+    } @else {
+      @include gradient($opacity: $opacity);
+    }
+  }
+}
+
+
+@mixin borderGradientAnimation($speed: 5s, $colors: null, $glowColors: null) {
+  $final-glowColors: if($glowColors == null, ($color_steel_white, $color_steel_light, $color_steel_white, $color_steel_dark, $color_steel_white), $glowColors);
+
+
+  &::after, &::before {
+    @include gradient($colors);
+    animation: $speed spin linear infinite;
+  }
+
+
+  &::before {
+    background: conic-gradient(from var(--angle), $final-glowColors);
+  }
+  &::before, &:hover::before {
+    filter: blur(0.5rem);
+    opacity: 0.5;
+  }
+}

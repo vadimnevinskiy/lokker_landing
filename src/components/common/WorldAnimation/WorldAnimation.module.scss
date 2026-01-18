@@ -1,0 +1,33 @@
+@import "../../../scss";
+
+.WorldAnimation{
+  margin-top: 3px;
+
+  path {
+    fill: transparent;
+    stroke-width: 0.4;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    stroke: #ffffff;
+    animation: whiteAnimation 3s linear 1 forwards;
+  }
+
+  @keyframes whiteAnimation {
+    0% {
+      stroke-dashoffset: 100;
+    }
+    50% {
+      //stroke-dashoffset: 0;
+      fill: transparent;
+    }
+    90% {
+      stroke-dashoffset: 0;
+      fill: #ffffff;
+    }
+    100% {
+      stroke-width: 0;
+      stroke-dashoffset: 0;
+      fill: $color_accent;
+    }
+  }
+}

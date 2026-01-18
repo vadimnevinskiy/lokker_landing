@@ -1,0 +1,36 @@
+@import "../../scss";
+
+.CopyrightBlock {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+
+
+  a {
+    transition: all 0.5s;
+  }
+  a:hover {
+    color: $color_accent;
+  }
+
+  &__Development{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    @include respond-to($bp_mobile_480) {
+      flex-direction: column;
+    }
+  }
+
+  &__Design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}

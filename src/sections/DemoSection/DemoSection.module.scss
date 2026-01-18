@@ -1,0 +1,12 @@
+.DemoSection {
+  margin-bottom: 100px;
+
+  &__VideoContainer {
+    //width: 1200px;
+    //height: 775px;
+
+    video {
+      max-width: 100%;
+    }
+  }
+}

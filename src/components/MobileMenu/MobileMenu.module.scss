@@ -1,0 +1,63 @@
+@import "../../scss";
+
+.MobileMenu {
+
+  @include respond-from($bp_notebook_1024) {
+    display: none !important;
+  }
+  @include respond-to($bp_mobile_480) {
+    &__Menu {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+
+  &__Menu {
+    background-color: rgba(0, 0, 0, 0.98);
+    height: 100%;
+    min-width: 190px;
+    padding: 100px 40px 40px 40px;
+    z-index: 5;
+    position: fixed;
+    right: 0;
+    top: 0;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: url('../../../public/assets/images/LogoIcon.svg') no-repeat;
+      background-position-x: 100px;
+      background-position-y: 130px;
+      background-size: 300px;
+      opacity: 0.1;
+      pointer-events: none;
+    }
+
+
+    transform: translateX(100%);
+    transition: all 0.2s;
+
+    &_active {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+
+    > div {
+      justify-content: left;
+      margin-bottom: 20px;
+    }
+
+    &__LanguageSelector {
+      max-width: 158px;
+    }
+
+    &__Logo{
+      position: fixed;
+      left: 40px;
+      top: 45px;
+      display: none;
+    }
+  }
+}

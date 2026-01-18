@@ -1,0 +1,51 @@
+.SecurityDetailBlock {
+
+  color: #f0f0f0;
+  font-size: 18px;
+  padding: 30px;
+
+
+  margin-bottom: 100px;
+
+  code {
+    background: #999999;
+    padding: 0 10px;
+    border-radius: 5px;
+    color: #0F1A21;
+    margin-bottom: 5px;
+  }
+  p {padding-bottom: 20px; line-height: 24px;}
+
+  &__Title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    border-bottom: 1px solid #333333;
+    padding: 0 0 10px 0;
+    margin-bottom: 30px;
+
+    &__icon{
+      font-size: 30px;
+    }
+  }
+
+  &__Subtitle{
+    margin-bottom: 30px;
+
+  }
+
+  &__Features{
+    list-style: disc;
+    margin: 0 0 40px 20px;
+
+    li {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__Description{
+    li {margin: 0 0 15px 30px;}
+  }
+}

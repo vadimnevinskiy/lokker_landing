@@ -1,0 +1,33 @@
+@use "./variable";
+
+@mixin container {
+  max-width: 1160px;
+  min-width: 310px;
+  margin: 0 auto;
+}
+
+@mixin noSelectText {
+  -webkit-user-select: none; /* Chrome, Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Standard */
+}
+
+@mixin textStroke($border-width, $stroke-color) {
+  text-shadow: #{$border-width} 0 #{$border-width} $stroke-color,
+    0 #{$border-width} #{$border-width} $stroke-color,
+    -#{$border-width} 0 #{$border-width} $stroke-color,
+    0 -#{$border-width} #{$border-width} $stroke-color;
+}
+
+@mixin textStrokeWithShadow($border-width, $stroke-color) {
+  text-shadow: #{$border-width} 0 #{$border-width} #{$stroke-color},
+  0 #{$border-width} #{$border-width} #{$stroke-color},
+          -#{$border-width} 0 #{$border-width} #{$stroke-color},
+  0 -#{$border-width} #{$border-width} #{$stroke-color},
+  0px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+
+
+

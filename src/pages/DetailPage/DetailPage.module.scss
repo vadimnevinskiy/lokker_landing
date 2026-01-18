@@ -1,0 +1,31 @@
+.DetailPage {
+  padding: 0 20px 50px;
+  max-width: 1160px;
+  min-width: 270px;
+  margin: 0 auto;
+
+  &__Description {
+    margin-bottom: 70px;
+
+    p {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__detailLink {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 70px;
+
+    a {
+      border-bottom: 1px solid #ffffff;
+
+      &:hover {
+        border-bottom: none;
+      }
+    }
+
+
+  }
+}

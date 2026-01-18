@@ -1,0 +1,73 @@
+@import "../../scss";
+
+.SliderBenefits {
+  $itemWidth: var(--itemWidth);
+  $itemHeight: 40px;
+  $animationSpeed: var(--animationSpeed);
+  $itemCount: var(--itemCount);
+
+  width: 90%;
+  max-width: 1536px;
+  height: $itemHeight;
+  margin-inline: auto;
+  position: relative;
+  overflow: hidden;
+  mask-image: linear-gradient(
+                  to right,
+                  transparent,
+                  $color_primary 10% 80%,
+                  transparent
+  );
+  //margin-bottom: 50px;
+
+  &__item {
+    $itemPosition: var(--position);
+
+    width: $itemWidth;
+    height: $itemHeight;
+    position: absolute;
+    left: max(calc($itemWidth * $itemCount), 100%);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(20px, 1.2vw, 30px);
+
+    animation-name: scrollLeft;
+    animation-duration: $animationSpeed;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: calc($animationSpeed / $itemCount * ($itemCount - $itemPosition) * -1);
+
+    &__icon {
+      width: 35px;
+      display: flex;
+      align-items: center;
+    }
+
+    &__content {
+      white-space: nowrap;
+      margin-top: -4px;
+    }
+  }
+
+  &.SliderBenefits__reversed {
+    .SliderBenefits__item {
+      animation-name: scrollRight;
+    }
+  }
+
+  @keyframes scrollLeft {
+    to {
+      left: calc($itemWidth * -1);
+    }
+  }
+  @keyframes scrollRight {
+    from {
+      left: calc($itemWidth * -1);
+    }
+    to {
+      left: max(calc($itemWidth * $itemCount), 100%);
+    }
+  }
+}

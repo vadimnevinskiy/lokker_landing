@@ -1,0 +1,69 @@
+@import "../../scss";
+
+.DescriptionBlock {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+  flex-direction: row;
+
+  &__reversed {
+    flex-direction: row-reverse;
+  }
+
+  &__Description {
+    &__text {
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 40px;
+
+      p {
+        margin-bottom: 10px;
+      }
+      ul li {
+        margin-bottom: 20px;
+      }
+
+      @include respond-to($bp_mobile_480) {
+        line-height: 22px;
+      }
+    }
+
+    &__button {
+
+      @include respond-to($bp_mobile_480) {
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    &__detailLink{
+      //text-align: right;
+      margin-bottom: 40px;
+
+      a{
+        border-bottom: 1px solid #ffffff;
+
+        &:hover{
+          border-bottom: none;
+        }
+      }
+
+
+    }
+  }
+
+
+  &__Image {
+    @include noSelectText();
+
+    //@include respond-to("tablet") {
+    //  display: none;
+    //}
+
+    @include respond-to($bp_tablet_768) {
+      display: none;
+    }
+  }
+
+
+}

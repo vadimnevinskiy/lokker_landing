@@ -1,0 +1,30 @@
+@import "../../../scss";
+
+.SecuritySlogans {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+
+  @include respond-to($bp_tablet_768) {
+    flex-direction: column;
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  &__Slogan {
+    margin-bottom: 70px;
+    @include respond-to($bp_tablet_768) {
+      margin-bottom: 20px;
+    }
+
+    &__content{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 13px 20px;
+    }
+
+  }
+}

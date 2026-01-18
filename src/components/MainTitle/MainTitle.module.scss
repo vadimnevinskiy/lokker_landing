@@ -1,0 +1,48 @@
+@import "../../scss";
+
+.MainTitle {
+  font-family: 'Manrope', 'sans-serif';
+
+  text-align: center;
+  margin-bottom: 40px;
+
+  font-size: 74px;
+  font-weight: 800;
+  line-height: 81px;
+
+  @include respond-to($bp_mobile_480) {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -2px;
+  }
+
+
+  &__MainText {
+    opacity: 0.3;
+    filter: blur(30px);
+
+    &__AppName {
+
+    }
+
+    &__Reveal {
+      //flex: 0.7;
+      min-width: 420px;
+      text-align: left;
+      background: red;
+    }
+
+    &__Keyword {
+      display: inline-block;
+      text-align: left;
+    }
+  }
+
+
+
+  .fadeIn {
+    opacity: 1;
+    filter: blur(0);
+  }
+}

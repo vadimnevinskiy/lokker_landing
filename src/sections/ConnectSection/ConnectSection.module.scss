@@ -1,0 +1,62 @@
+@import "../../scss";
+
+.ConnectSection {
+  max-width: 1200px;
+  min-width: 280px;
+  margin: 0 auto 50px;
+  padding: 0 20px;
+
+  //display: grid;
+  //grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  //gap: 30px;
+  //justify-content: center;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+  &__Question, &__Contacts {
+    flex: 0 0 30%;
+  }
+  &__Question, &__Navigation, &__Contacts {
+    //width: 30%;
+    margin-bottom: 50px;
+  }
+
+  @include respond-to($bp_tablet_768) {
+    flex-direction: column;
+    &__Question, &__Navigation, &__Contacts {
+      width: 100%;
+    }
+  }
+
+
+  &__Question {
+    &__Logo, &__Description {
+      margin-bottom: 50px;
+    }
+  }
+
+  &__Navigation {
+    &__Title {
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin-bottom: 40px;
+    }
+
+    &__Links {
+      &__LinkItem {
+        margin-bottom: 15px;
+
+        a {
+          transition: all 0.5s;
+        }
+        a:hover {
+          color: $color_accent;
+        }
+      }
+
+    }
+  }
+}

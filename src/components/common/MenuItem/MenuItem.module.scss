@@ -1,0 +1,45 @@
+@import "../../../scss";
+
+.MenuItem {
+  padding: 0 10px;
+  @include noSelectText;
+  color: #ffffff;
+  transition: all 0.6s ease;
+
+  width: 100%;
+  cursor: pointer;
+  gap: 15px;
+  position: relative;
+
+  @include respond-from($bp_tablet_big_900) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a {
+    transition: all 0.5s;
+  }
+
+  a:hover {
+    color: #E6FF2B;
+  }
+
+  &__DropdownItem {
+
+    //position: relative;
+
+    &__link {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      cursor: pointer;
+      gap: 15px;
+
+      @include respond-to($bp_tablet_big_900) {
+        margin-bottom: 20px;
+      }
+    }
+
+  }
+}

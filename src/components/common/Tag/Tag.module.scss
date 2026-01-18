@@ -1,0 +1,12 @@
+@import "../../../scss";
+
+.Tag {
+  &__name{
+    padding: 13px 30px;
+    font-size: 16px;
+
+    @include respond-to($bp_tablet_big_900) {
+      padding: 8px 15px;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.Shield {
+  &__small {
+    width: 35px;
+    height: 40px;
+  }
+
+  &__middle {
+    width: 44px;
+    height: 50px;
+  }
+
+  &__big {
+    width: 55px;
+    height: 60px;
+  }
+
+
+  &__animation {
+    path {
+      fill: transparent;
+      stroke-width: 2;
+      stroke-dasharray: 148;
+      stroke-dashoffset: 148;
+      stroke: #ffffff;
+      animation: whiteFillAnimation 5s linear 1 forwards;
+      animation-delay: 1s;
+    }
+  }
+
+  @keyframes whiteFillAnimation {
+    0% {
+      stroke-dashoffset: 147;
+    }
+    50% {
+      stroke-dashoffset: 0;
+      fill: transparent;
+    }
+    100% {
+      stroke-width: 0;
+      stroke-dashoffset: 0;
+      fill: #ffffff;
+    }
+  }
+}

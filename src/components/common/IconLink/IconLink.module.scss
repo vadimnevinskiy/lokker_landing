@@ -1,0 +1,19 @@
+@import "../../../scss";
+
+.IconLink {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  color: $color_white;
+  transition: all 1s;
+
+
+  &:hover {
+    color: $color_accent;
+  }
+
+  &__Name {
+    margin-top: -3px;
+  }
+}

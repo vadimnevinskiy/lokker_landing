@@ -1,0 +1,29 @@
+@import "../../scss";
+
+.SecuritySection {
+  &__Cards {
+    position: relative;
+    margin-bottom: 100px;
+
+    &__Indicator {
+      background: rgba(255, 255, 255, 0.4);
+      position: sticky;
+      top: 20px;
+      left: 0;
+      height: 1px;
+      width: 100%;
+      margin-bottom: 60px;
+
+      @media (max-width: 380px) and (max-height: 750px) {
+        position: static;
+      }
+
+      &__Bar {
+        background: #ffffff;
+        position: sticky;
+        top: 20px;
+        height: 1px;
+      }
+    }
+  }
+}
