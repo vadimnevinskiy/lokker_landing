@@ -12,6 +12,13 @@ interface IProps {
 
 const MenuItem: FC<IProps> = ({item, dropdownActivation, isActiveDropdown, children}) => {
 
+    const scrollToSection = (id: string) => {
+        const el = document.getElementById(id);
+        if (el) {
+            el.scrollIntoView({behavior: 'smooth'});
+        }
+    };
+
     return (
         <div className={classNames({
             [classes.MenuItem]: true
@@ -30,9 +37,17 @@ const MenuItem: FC<IProps> = ({item, dropdownActivation, isActiveDropdown, child
                         {children}
                     </div>
                     :
-                    <a href={`#${item.id}`} key={item.id} className={classNames({
-                        [classes.MenuItem__item]: true
-                    })}>{item.title}</a>
+                    <a
+                        href={`#${item.id}`}
+                        onClick={(e) => {
+                            e.preventDefault();
+                            scrollToSection(item.id);
+                        }}
+                        key={item.id}
+                        className={classNames({
+                            [classes.MenuItem__item]: true
+                        })}
+                    >{item.title}</a>
             }
         </div>
     )
