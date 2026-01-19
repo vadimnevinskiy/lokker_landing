@@ -20,7 +20,7 @@ const DemoSection = () => {
                 [classes.DemoSection__VideoContainer]: true
             })}>
                 <video playsInline controls poster={process.env.PUBLIC_URL + "/assets/images/DemoPreview.png"}>
-                    <source src={process.env.PUBLIC_URL + "/assets/PassVault_Demo_2.mp4"}
+                    <source src={process.env.PUBLIC_URL + "/assets/lokker_Demo.mp4"}
                             type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/>
                 </video>
             </div>
