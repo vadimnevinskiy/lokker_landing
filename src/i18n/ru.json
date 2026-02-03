@@ -284,12 +284,12 @@
       {
         "id": "telegram_group",
         "icon": "telegram",
-        "name": "Написать в Telegram"
+        "name": "Telegram-сообщество"
       },
       {
         "id": "developer_telegram",
         "icon": "telegram",
-        "name": "Написать разработчику"
+        "name": "Telegram разработчика"
       },
       {
         "id": "email",
@@ -299,7 +299,7 @@
       {
         "id": "github",
         "icon": "github",
-        "name": "Исходный код программы"
+        "name": "Посмотреть на GitHub"
       }
     ]
   }

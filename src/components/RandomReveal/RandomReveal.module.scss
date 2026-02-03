@@ -15,6 +15,14 @@
     font-size: 16px;
     padding: 3px 0;
   }
+
+  @include respond-to($bp_tablet_768) {
+    span {
+      width: 14px;
+      font-size: 13px;
+    }
+  }
+
   //$shadow: rgba(44, 54, 59, 1);
   //$bg: rgba(255, 255, 255, 0.7);
   //&__char {

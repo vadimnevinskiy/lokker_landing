@@ -285,22 +285,22 @@
       {
         "id": "telegram_group",
         "icon": "telegram",
-        "name": "Escribir en Telegram"
+        "name": "Comunidad de Telegram"
       },
       {
         "id": "developer_telegram",
         "icon": "telegram",
-        "name": "Escribir al desarrollador"
+        "name": "Desarrollador en Telegram"
       },
       {
         "id": "email",
         "icon": "email",
-        "name": "Escribir al desarrollador"
+        "name": "Enviar email al desarrollador"
       },
       {
         "id": "github",
         "icon": "github",
-        "name": "Ver el código fuente en GitLab"
+        "name": "Ver en GitHub"
       }
     ]
   }
