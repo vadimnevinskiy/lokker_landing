@@ -39,6 +39,10 @@
       "id": "demo_section"
     },
     {
+      "title": "Контакты",
+      "id": "contacts_section"
+    },
+    {
       "title": "Скачать",
       "id": "download"
     }

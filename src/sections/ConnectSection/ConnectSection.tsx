@@ -15,7 +15,7 @@ const ConnectSection = () => {
 
     return (
         <>
-            <div className={classNames(classes.ConnectSection)}>
+            <div  id={content.contacts_section.id} className={classNames(classes.ConnectSection)}>
                 <div className={classNames(classes.ConnectSection__Question)}>
                     <div className={classNames(classes.ConnectSection__Question__Logo)}><Logo/></div>
                     <div
