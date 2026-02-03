@@ -284,7 +284,7 @@
     "id": "contacts_section",
     "question": "Have questions, ideas, or found a bug? Get in touch with us or check out the project repository.",
     "navigation_title": "navigation",
-    "contact_title": "contact",
+    "contact_title": "contacts",
     "links": [
       {
         "id": "telegram_group",

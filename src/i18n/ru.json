@@ -283,7 +283,7 @@
     "id": "contacts_section",
     "question": "Есть вопросы, идеи или нашли ошибку? Напишите нам или загляните в репозиторий проекта.",
     "navigation_title": "навигация",
-    "contact_title": "контакт",
+    "contact_title": "контакты",
     "links": [
       {
         "id": "telegram_group",
