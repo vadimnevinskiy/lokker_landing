@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/lokker_landing/static/css/main.3a9a945b.css",
+    "main.js": "/lokker_landing/static/js/main.36593ab1.js",
+    "static/js/453.2addfa0c.chunk.js": "/lokker_landing/static/js/453.2addfa0c.chunk.js",
+    "static/media/Montserrat-VariableFont_wght.woff2": "/lokker_landing/static/media/Montserrat-VariableFont_wght.8bdd58fe0a8340021f52.woff2",
+    "static/media/Manrope-VariableFont_wght.woff2": "/lokker_landing/static/media/Manrope-VariableFont_wght.1534632da2e45fd0224d.woff2",
+    "static/media/arrow.svg": "/lokker_landing/static/media/arrow.045991a3f1dff99d3988.svg",
+    "index.html": "/lokker_landing/index.html",
+    "static/media/LogoIcon.svg": "/lokker_landing/static/media/LogoIcon.db0c5598bfd3570e007f.svg",
+    "main.3a9a945b.css.map": "/lokker_landing/static/css/main.3a9a945b.css.map",
+    "main.36593ab1.js.map": "/lokker_landing/static/js/main.36593ab1.js.map",
+    "453.2addfa0c.chunk.js.map": "/lokker_landing/static/js/453.2addfa0c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a9a945b.css",
+    "static/js/main.36593ab1.js"
+  ]
+}
