@@ -18,7 +18,7 @@ function App() {
 
     return (
         <div className="App">
-            <BrowserRouter basename="/getlokker">
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Routes>
                     <Route path="/" element={<MainPage/>}/>
                     <Route path="/detail" element={<DetailPage/>}/>

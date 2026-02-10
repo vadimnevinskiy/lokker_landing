@@ -1,6 +1,5 @@
 {
   "name": "passvault_page",
-  "homepage": "https://vadimnevinskiy.github.io/getlokker/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,7 +33,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+
+    "build:gh": "cross-env PUBLIC_URL=/getlokker react-scripts build",
+    "build:vercel": "cross-env PUBLIC_URL=/ react-scripts build",
+
+    "predeploy": "npm run build:gh",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -56,6 +59,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^10.1.0",
     "gh-pages": "^6.3.0"
   }
 }
