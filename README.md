@@ -219,15 +219,14 @@ This project is licensed under the MIT License.
 
 ### Author
 Vadim Nevinskiy<br/>
-Python / React developer
 
 📧 Email: `nevinskiyvadim@gmail.com` <br/>
 💬 Telegram: `https://t.me/vadim_nevinskiy`
 
 💻 GitLab:
 
-- Landing Page: https://gitlab.com/vadim_nevinskiy/lokker_landing
-- Application: https://gitlab.com/vadim_nevinskiy/lokker
+- Landing Page: https://vadimnevinskiy.github.io/getlokker/
+- Application: https://github.com/vadimnevinskiy/lokker
 - Telegram: https://t.me/+v4X5ohXRyI1kMzEy
 
 📅 Date: January 17, 2026
